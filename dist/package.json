@@ -1,0 +1,10 @@
+{
+  "name": "chillflix",
+  "version": "1.0.0",
+  "description": "Netflix and Chill?",
+  "author": "Benjides <benjergara@gmail.com>",
+  "private": true,
+  "scripts": {
+    "postinstall": "npm install express connect-history-api-fallback"
+  }
+}
