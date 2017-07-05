@@ -1,6 +1,6 @@
 <template>
 <transition-group name="blur" tag="div" class="thumb">
-  <img class="placeholder blur-transition" key="placeholder" src="./../assets/loRes.png"></img>
+  <img class="placeholder blur-transition" key="placeholder" src="./../assets/placeholder.png"></img>
   <img v-show="src === hiRes" :src="hiRes" key="hiRes" class="img blur-transition"></img>
 </transition-group>
 </template>

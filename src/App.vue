@@ -4,15 +4,18 @@
   <transition name="fade" mode="out-in">
     <router-view></router-view>
   </transition>
+  <bottom-bar></bottom-bar>
 </div>
 
 </template>
 
 <script>
 import TopBar from '@/components/TopBar'
+import BottomBar from '@/components/BottomBar'
 export default {
   components: {
-    TopBar
+    TopBar,
+    BottomBar
   }
 }
 

@@ -37,12 +37,12 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 
 - [ ] Adapt the page according to the search status
 - [ ] Better search engine
-- [ ] Full Mobile version
+- [x] Full Mobile version
 - [ ] Palette color picker for better visualization in Details Page
 - [ ] Cast
 - [ ] Episode guide
 - [ ] Embeded Trailer
-- [ ] Route Fallback
+- [x] Route Fallback
 - [ ] SSR
 
 
@@ -71,10 +71,6 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 - [VueJs](https://vuejs.org/)
 - [Trakt](https://trakt.tv/)
 - [TMDb](https://www.themoviedb.org/)
-- [Heroku](https://www.heroku.com/)
-
-
-
 
 ## License
 

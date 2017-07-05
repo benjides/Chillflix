@@ -6,7 +6,6 @@ import { createRoosterView, createDetailsView } from '@/views/'
 Vue.use(Router)
 
 export default new Router({
-  mode: 'history',
   routes: [
     { path: '/shows', component: createRoosterView('shows') },
     { path: '/shows/:id', component: createDetailsView('shows') },

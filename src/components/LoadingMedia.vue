@@ -1,7 +1,7 @@
 <template>
 <div class="element" :class="{ show }">
   <div class="wraper">
-    <img src="./../assets/loRes.png" alt="Loading" class="thumb">
+    <img src="./../assets/placeholder.png" alt="Loading" class="thumb">
     <spinner></spinner>
   </div>
   <div class="info container">

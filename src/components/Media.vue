@@ -1,7 +1,6 @@
 <template>
 <div class="element">
   <router-link :to="{ path: `${$store.state.type}/${media.id}` }">
-    <!-- <img :src="fanart" :alt="media.title" class="thumb"> -->
     <blurry-image :fanart="media.fanart"></blurry-image>
   </router-link>
   <div class="info container">

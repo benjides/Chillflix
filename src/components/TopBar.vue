@@ -60,13 +60,13 @@ export default {
     top 0
     height 70px
     width 100%
-    z-index 100
+    z-index 90
 
   .navbar
     display flex
-    flex-wrap: wrap
-    align-items: center
-    height: 100%
+    flex-wrap wrap
+    align-items center
+    height 100%
     .menu,.search
       width 25%
     i

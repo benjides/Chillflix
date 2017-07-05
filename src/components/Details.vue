@@ -24,8 +24,8 @@
           <div class="genre">{{genres}}</div>
         </div>
         <div class="overview">{{item.overview}}</div>
-        <a v-if="item.trailer" :href="item.trailer" class="button" target="_blank">WATCH TRAILER</a>
         <a :href="item.catalog" class="button" target="_blank">EXPLORE TORRENTS</a>
+        <a v-if="item.trailer" :href="item.trailer" class="button" target="_blank">WATCH TRAILER</a>
       </div>
     </div>
   </div>
@@ -131,5 +131,23 @@ export default {
 
   .overview
     margin 20px 0px
+
+
+/* Mobile */
+@media all and (max-width 500px)
+  .details-wraper
+    .container
+      width 100%
+
+    .contents
+      align-items initial
+    .info
+      padding 70px 18px 0 18px
+      h1
+        font-size 30px
+      .overview
+        overflow overlay
+
+
 
 </style>
