@@ -30,9 +30,7 @@ export function fetchById (type, id) {
 }
 
 function fetchItem (type, item) {
-  return Promise.all([
-    tmdb(type, item.ids.tmdb)
-  ]).then(([tmdb]) => {
+  return tmdb(type, item.ids.tmdb).then(tmdb => {
     item.id = item.ids.imdb
     item.fanart = tmdb.data.backdrop_path
     item.poster = tmdb.data.poster_path
